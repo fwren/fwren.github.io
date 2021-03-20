@@ -1,0 +1,68 @@
+# Site settings
+title: fwren    #你博客的标题
+SEOTitle: fwren | blog
+header-img: img/illust_45525123_20190412_181910.jpg #显示在首页的背景图片
+email: 暂无
+description: #网站介绍
+keyword: #关键词
+url: "http://fwren.github.io" # 你博客的地址
+baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/fwren/fwren.github.io.git" # you code repository
+
+# Sidebar settings
+sidebar: true # 是否开启侧边栏
+sidebar-about-description:
+sidebar-avatar: /img/aa3db8cbf75495bd8e201467a4aaa5c0.png # 你的个人头像
+
+# SNS settings  社交账号
+RSS: false
+# weibo_username:     暂无
+zhihu_username: 暂无
+github_username: 暂无
+facebook_username: 暂无
+jianshu_username: 暂无
+#twitter_username:   暂无
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less", "node_modules", "Gruntfile.js", "package.json", "README.md"]
+anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+#redcarpet:
+#    extensions: [ "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
+kramdown:
+  input: GFM # use Github Flavored Markdown !important
+
+# Gitalk
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+# ba_track_id:
+# Google Analytics
+# ga_track_id:             # Format: UA-xxxxxx-xx
+# ga_domain:                # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+# Featured Tags
+featured-tags: true # 是否使用首页标签
+featured-condition-size: 1 # 相同标签数量大于这个数，才会出现在首页
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+# Friends
+friends: []
