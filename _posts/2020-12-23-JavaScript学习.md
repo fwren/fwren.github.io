@@ -217,3 +217,19 @@ JavaScript 是一种轻量级的脚本语言，同时也是一种**嵌入式**�
 > - object：表示值为对象（而不是函数）或null
 > - function：表示值为函数
 > - symbol：表示值为符号
+
+### 3.5.2 Number 类型
+
+- 进制
+- 最大值 Number.MAX_VALUE、最小值 Number.MIN_VALUE
+- 无穷大 Infinity、无穷小 -Infinity
+- 非数值 NaN
+> isNaN()方法判断是否为非数字
+
+### 3.5.3 字符串 String 类型
+
+JS 推荐使用单引号
+
+- 字符串转义符
+- 字符串长度 length 属性
+- 字符串拼接（任意字符串和任意类型拼接后形成一个新的字符串）
