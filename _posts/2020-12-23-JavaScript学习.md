@@ -252,3 +252,5 @@ Boolean 类型参与数值运算的时候 true 当作 1 来看，false 当作 0 
     - toString() 方法
     - String() 强制转换
     - 加号拼接字符串（隐式转换）
+
+查看[three.js](./three.js/demo1.html)
