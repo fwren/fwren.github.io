@@ -2,7 +2,7 @@
 layout: post #使用的布局（不需要改）
 title: JavaScript 学习 # 标题
 subtitle: 不定期更新 #副标题
-date: 2020-12-23 # 时间
+date: 2021-3-24 # 时间
 author: fwren # 作者
 header-img: #这篇文章的背景图片
 catalog: true #是否归档
