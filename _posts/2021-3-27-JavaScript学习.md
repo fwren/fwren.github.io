@@ -10,7 +10,7 @@ tags: #标签
   - JavaScript
 ---
 
-# **#1. JavaScript 准备条件**
+# **1 JavaScript 准备条件**
 
 ## **1.1 开发工具**
 
@@ -29,7 +29,7 @@ tags: #标签
 
 - **HTML 和 CSS 相关知识**
 
-# **#2. JavaScript 介绍**
+# **2 JavaScript 介绍**
 
 ## **2.1 JavaScript**
 
@@ -80,7 +80,7 @@ JavaScript 是一种轻量级的脚本语言，同时也是一种**嵌入式**�
 
 > 浏览器本身并不会执行 JS 代码，而是通过内置的 JavaScript 引擎（解释器）来执行 JS 代码，JS 引擎执行代码时逐行解释每一句源码（转换为机器语言），然后由计算机去执行，所以 JavaScript 语言归为脚本语言，会逐行解释执行
 
-# **#3. JavaScript语法基础**
+# **3 JavaScript语法基础**
 
 ## **3.1 书写简单的 JavaScript 代码**
 
